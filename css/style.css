@@ -329,7 +329,13 @@ body {
 }
 .icons-team {
     padding: 10px;
-        fill: var(--CLOUD);
+    fill: var(--CLOUD);
+    width: 40px;
+    height: 40px;
+    stroke: var(--CLOUD);
+    box-shadow: none;
+    align-items: center;
+    margin: 0px;
 }
 .team-social li:hover {
     cursor: pointer;
@@ -363,8 +369,8 @@ body {
 }
 .icons-customer {
     padding: 16px 32px;
-    width: 104px;
-    height: 56px;
+    width: auto;
+    height: auto;
     fill: var(--LIGHT-SLATE);
 }
 .icons-customer:hover,
@@ -419,8 +425,8 @@ body {
 .social-list li {
     display: inline-flex;
     height: 40px;
-    background-color: var(--IRIS);
     width: 40px;
+    background-color: var(--IRIS);
     border: 1px solid var(--IRIS);
     border-radius: 50%;
 }
@@ -434,6 +440,12 @@ body {
 .icons {
     padding: 10px;
     fill: var(--CLOUD);
+    width: 40px;
+    height: 40px;
+    stroke: var(--CLOUD);
+    box-shadow: none;
+    align-items: center;
+    margin: 0px;
 }
 
 /* end of footer */
