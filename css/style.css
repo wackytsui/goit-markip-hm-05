@@ -63,6 +63,8 @@ body {
 .link:focus {
     color: var(--OCEAN);
     cursor: pointer;
+    transition: 250ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* .nav-list {
     height: 48px;
@@ -81,7 +83,8 @@ body {
     border-radius: 2px;
     background: var(--OCEAN);
     transform: translatey(100%);
-        transition: transform 100ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list li:hover .underline{
     transform: translatey(0);
@@ -116,6 +119,8 @@ body {
 .hero-btn:focus {
     background-color: var(--OCEAN);
     cursor: pointer;
+    transition: 250ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .body-text-list,
 .body-feature-list,
@@ -329,7 +334,8 @@ body {
 .team-social li:hover {
     cursor: pointer;
     background-color: var(--OCEAN);
-    border-color: var(--OCEAN);
+    border-color: var(--OCEAN);transition: 250ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* end of section 3 */
 
@@ -366,6 +372,8 @@ body {
     border-color: var(--OCEAN);
     cursor: pointer;
     fill: var(--OCEAN);
+    transition: 250ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* end of customer section */
 
@@ -420,6 +428,8 @@ body {
     cursor: pointer;
     background-color: var(--GREEN);
     border-color: var(--GREEN);
+    transition: 250ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons {
     padding: 10px;
@@ -446,6 +456,8 @@ body {
 .nav-btn button:hover {
     color: var(--WHITE);
     background-color: var(--IRIS);
+    transition: 250ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .picture-parent {
@@ -532,6 +544,7 @@ body {
     width: 100%;
     transform: translatey(100%);
     transition: transform 250ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .box:hover .overlay{
     transform: translatey(0);
