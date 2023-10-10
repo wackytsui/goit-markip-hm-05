@@ -25,7 +25,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
     width: 1440px;
-    height: 3200px;
+    /* height: 3200px; */
     margin: auto;
 }
 .logo {
@@ -95,9 +95,9 @@ body {
     border-bottom: 4px solid var(--OCEAN);
 } */
 .hero {
-    background: var(--GREY);
-    background-blend-mode: darken;
-    background-image: url(../images/people-office.jpg);
+    /* background: var(--GREY); */
+    /* background-blend-mode: darken; */
+    background-image:linear-gradient(to bottom, var(--GREY), var(--GREY)), url(../images/people-office.jpg);
 }
 .hero-text {
     color: var(--WHITE);
@@ -180,23 +180,25 @@ body {
     justify-content: center;
 }
 .nav-parent {
-    display: inline-flex;
-    justify-content: center;
-    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
 }
 .logo {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     height: 24px;
     flex-shrink: 0;
 }
 .nav-list {
-    display: inline-flex;
+    display: flex;
+    margin-top: 24px;
     gap: 40px;
-    padding-inline-start: 20px;
+    padding-inline-start: 76px;
     height: 48px;
 }
 .nav-contact {
-    display: inline-flex;
+    display: flex;
     padding-inline-start: 350px;
     gap: 40px;
 }
@@ -440,9 +442,9 @@ body {
 /* end of footer */
 
 /* start general styling for Portfolio page */
-.portfolio {
+/* .portfolio {
     height: 1900px;
-}
+} */
 .nav-btn button {
     font-weight: 500;
     text-transform: capitalize;
@@ -556,3 +558,58 @@ body {
     width: 296px;
 }
 /* end of picture list */
+
+/* MODAL TEST */
+.data-modal {
+    display: flex;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.is-hidden {
+    display: flex;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    visibility: hidden;
+}
+
+.modal-content {
+    margin: auto;
+    position: relative;
+    width: 408px;
+    height: 584px;
+    border-radius: 4px;
+    background-color: rgba(252, 252, 252, 1);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+}
+
+.data-modal-close {
+    color: rgba(46, 47, 66, 1);
+    float: right;
+    font-size: 24px;
+    margin-top: 24px;
+    margin-right: 24px;
+    font-weight: bold;
+    background-color: rgba(231, 233, 252, 1);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid rgba(46, 47, 66, 0.25);
+}
+
+.data-modal-close:hover,
+.data-modal-close:focus {
+    cursor: pointer;
+}
