@@ -97,7 +97,7 @@ body {
 .hero {
     /* background: var(--GREY); */
     /* background-blend-mode: darken; */
-    background-image:linear-gradient(to bottom, var(--GREY), var(--GREY)), url(../images/people-office.jpg);
+    background-image:linear-gradient(to top, var(--GREY), var(--GREY)), url(../images/people-office.jpg);
 }
 .hero-text {
     color: var(--WHITE);
