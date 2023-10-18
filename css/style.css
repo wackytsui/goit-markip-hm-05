@@ -660,7 +660,7 @@ body {
 
 /* end of picture list */
 
-/* MODAL TEST */
+/* start of modal script */
 .data-modal {
     display: flex;
     background-color: var(--GREY);
@@ -714,3 +714,4 @@ body {
 .data-modal-close:focus {
     cursor: pointer;
 }
+/* end of modal script */
